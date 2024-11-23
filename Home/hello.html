@@ -1,0 +1,25 @@
+
+
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>留言板</title>
+   <link rel="stylesheet" href="./css/gloge.css" type="text/css">
+  </head>
+  <body>
+    
+    <div id="one">
+      <form action="../Admin/do_write.php" method="post">
+        用户名:
+        <input type="text" name="user" placeholder="
+        请你输入用户名"><br/><br/>
+        留言内容:
+        <textarea name="content" cols="50" rows="5"
+          placeholder="请你输入留言内容:" >
+        </textarea><br/><br/>
+        <input type="submit" value="发布留言" />
+      </form>
+    </div>
+  </body>
+</html>

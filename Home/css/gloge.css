@@ -1,0 +1,13 @@
+body{
+    background: url('../img/eee.jpg') no-repeat,url(../img/boxy-ne.png);
+}
+#one{
+    width: 98%;
+    /* height: 200px; */
+    /* border: 1px solid green; */
+    position:absolute;
+    bottom: 150px;
+    left:calc(width / 2 - 800px);
+    text-align: center;   
+    color: #fff;
+}
